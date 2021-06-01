@@ -59,21 +59,20 @@ export default {
 
 #img-jiaoda {
     left: 10px;
-    top: 15px;
-    width: 300px;
+    top: 30px;
+    width: 150px;
 }
 
 #img-beihang {
-    left: 320px;
-    top: 15px;
-    height: 100px;
+    left: 15px;
+    top: 170px;
+    height: 60px;
 }
 
 #img-microsoft {
-    float: right;
-    top: 15px;
-    right: 30px;
-    left: none;
-    height: 80px;
+    float: left;
+    top: 100px;
+    left: 15px;
+    height: 40px;
 }
 </style>
