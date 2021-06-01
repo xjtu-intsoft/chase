@@ -11,13 +11,13 @@
             </p>
             <row container :gutter="10">
                 <column :xs="12" :md="12" :lg="4">
-                     <el-button type="success" round>Paper </el-button>
+                     <el-button type="success" round><a href="https://raw.githubusercontent.com/xjtu-intsoft/chase/page/paper/Chase_ACL21.pdf" class="btn-link">Paper</a></el-button>
                 </column>
                 <column :xs="12" :md="12" :lg="4">
-                    <el-button type="success" round>Dataset</el-button>
+                    <el-button type="success" round><a href="https://github.com/xjtu-intsoft/chase" class="btn-link">Dataset</a></el-button>
                 </column>
                 <column :xs="12" :md="12" :lg="4">
-                    <el-button type="success" round>Github</el-button>
+                    <el-button type="success" round><a href="https://github.com/xjtu-intsoft/chase" class="btn-link">Github</a></el-button>
                 </column>
             </row>
         </div>
@@ -31,7 +31,7 @@
                 To collect question sequences, we recruit 12 Chinese college students who are skilled at SQL to create question sequences against databases from scratch.
                 Second, to enlarge dour dataset, we translate all the data in <a href="https://yale-lily.github.io/sparc"><b>SParC</b></a>, inlcuding questions, SQL queries, and databases, from English to Chinese.
                 11 students are recruited to perform the translation.
-                Please refer to our <a href="#"><b>ACL'21 paper</b></a> for more details of the dataset construction.
+                Please refer to our <a href="https://raw.githubusercontent.com/xjtu-intsoft/chase/page/paper/Chase_ACL21.pdf"><b>ACL'21 paper</b></a> for more details of the dataset construction.
             </p>
              <el-table :data="tableData" style="width: 100%">
                 <el-table-column label="Dataset" prop="name"></el-table-column>
@@ -45,7 +45,7 @@
             <div class="header">
                 <h2>Have Questions or Want to Contribute?</h2>
             </div>
-            <p>Please ask us questions at our <a href="#">Github issue pages</a> or contact Jiaqi Guo (JasperGuo AT outlook.com).</p>
+            <p>Please ask us questions at our <a href="https://github.com/xjtu-intsoft/chase/issues">Github issue pages</a> or contact Jiaqi Guo (JasperGuo AT outlook.com).</p>
             <p>We plan to support more languages in Chase. Please contact us if you are interested in building a context-dependent Text-to-SQL dataset for your native language.</p>
         </div>
         <div class="card">
@@ -127,6 +127,10 @@ export default {
 
 #aside a{
     text-decoration: none;
+}
+
+.btn-link {
+    color: #fff;
 }
 
 .card {
