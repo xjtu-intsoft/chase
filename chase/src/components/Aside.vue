@@ -4,7 +4,7 @@
             <div class="header">
                 <h2>What is Chase?</h2>
             </div>
-            <p> 
+            <p>
                 Chase is to date the largest Chinese dataset for the cross-database context-dependent Text-to-SQL problem.
                 It consists of 5,459 question sequences (17,940 questions) over 280 databases.
                 Each question in Chase has rich semantic annotations, including its SQL query, contextual dependency, and schema linking.
@@ -14,12 +14,22 @@
                      <el-button type="success" round><a href="https://aclanthology.org/2021.acl-long.180/" class="btn-link">Paper</a></el-button>
                 </column>
                 <column :xs="12" :md="12" :lg="4">
-                    <el-button type="success" round><a href="https://raw.githubusercontent.com/xjtu-intsoft/chase/page/data/data.zip" class="btn-link">Dataset</a></el-button>
+                    <el-button type="success" round><a href="https://github.com/xjtu-intsoft/chase/tree/page/data" class="btn-link">Dataset</a></el-button>
                 </column>
                 <column :xs="12" :md="12" :lg="4">
                     <el-button type="success" round><a href="https://github.com/xjtu-intsoft/chase" class="btn-link">Github</a></el-button>
                 </column>
             </row>
+        </div>
+        <div class="card">
+            <div class="header">
+                <h2>News</h2>
+            </div>
+            <p>
+                We have released the data of Chase. 
+                Please feel free to examine the data and contact us if there are any problem.
+                We are constructing Japanese version of Chase. 
+            </p>
         </div>
         <div class="card">
             <div class="header">
