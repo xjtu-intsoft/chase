@@ -1,0 +1,8 @@
+Flask
+flask-login
+pymongo
+requests
+overrides
+pycryptodome
+gunicorn
+nltk
