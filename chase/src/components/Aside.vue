@@ -11,10 +11,10 @@
             </p>
             <row container :gutter="10">
                 <column :xs="12" :md="12" :lg="4">
-                     <el-button type="success" round><a href="https://raw.githubusercontent.com/xjtu-intsoft/chase/page/paper/Chase_ACL21.pdf" class="btn-link">Paper</a></el-button>
+                     <el-button type="success" round><a href="https://aclanthology.org/2021.acl-long.180/" class="btn-link">Paper</a></el-button>
                 </column>
                 <column :xs="12" :md="12" :lg="4">
-                    <el-button type="success" round><a href="https://github.com/xjtu-intsoft/chase" class="btn-link">Dataset</a></el-button>
+                    <el-button type="success" round><a href="https://raw.githubusercontent.com/xjtu-intsoft/chase/page/data/data.zip" class="btn-link">Dataset</a></el-button>
                 </column>
                 <column :xs="12" :md="12" :lg="4">
                     <el-button type="success" round><a href="https://github.com/xjtu-intsoft/chase" class="btn-link">Github</a></el-button>
@@ -31,7 +31,7 @@
                 To collect question sequences, we recruit 12 Chinese college students who are skilled at SQL to create question sequences against databases from scratch.
                 Second, to enlarge dour dataset, we translate all the data in <a href="https://yale-lily.github.io/sparc"><b>SParC</b></a>, inlcuding questions, SQL queries, and databases, from English to Chinese.
                 11 students are recruited to perform the translation.
-                Please refer to our <a href="https://raw.githubusercontent.com/xjtu-intsoft/chase/page/paper/Chase_ACL21.pdf"><b>ACL'21 paper</b></a> for more details of the dataset construction.
+                Please refer to our <a href="https://aclanthology.org/2021.acl-long.180/"><b>ACL'21 paper</b></a> for more details of the dataset construction.
             </p>
              <el-table :data="tableData" style="width: 100%">
                 <el-table-column label="Dataset" prop="name"></el-table-column>
@@ -69,10 +69,16 @@
   author = {Jiaqi Guo and Ziliang Si and Yu Wang and Qian Liu 
                   and Ming Fan and Jian-Guang Lou and Zijiang Yang 
                   and Ting Liu}
-  booktitle = "ACL'21",
-  address = "Bangkok, Thailand",
+  booktitle = "Proceedings of the 59th Annual Meeting of 
+                      the Association for Computational Linguistics and 
+                      the 11th International Joint Conference on 
+                      Natural Language Processing",
+  address = "Online",
   publisher = "Association for Computational Linguistics",
-  year = 2021
+  year = 2021,
+  month = aug,
+  pages = 2316--2331,
+  url = "https://aclanthology.org/2021.acl-long.180",
 }
                 </code>
             </pre>
